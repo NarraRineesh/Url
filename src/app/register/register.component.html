@@ -1,0 +1,34 @@
+<div class="wrapper">
+    <div class="title">
+  Register</div>
+  <form action="#">
+    <div class="field">
+        <input type="text" required>
+        <label>First Name</label>
+      </div>
+      <div class="field">
+        <input type="text" required>
+        <label>Last Name</label>
+      </div>
+      <div class="field">
+        <input type="text" required>
+        <label>Email Address</label>
+      </div>
+  <div class="field">
+        <input type="password" required>
+        <label>Password</label>
+      </div>
+  <div class="content">
+        <div class="checkbox">
+          <input type="checkbox" id="remember-me">
+          <label for="remember-me">Accept</label>
+        </div>
+  <div class="pass-link">
+  <a >Terms and Conditions</a></div>
+  </div>
+  <div class="field">
+        <input type="submit" value="SignUp">
+      </div>
+  <div class="signup-link">
+  Already a member? <a [routerLink]="['/login']" routerLinkActive="active" >Login now</a></div>
+  </form>
